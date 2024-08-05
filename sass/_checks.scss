@@ -1,0 +1,89 @@
+.checks {
+    margin-top: 200px;
+    .chack__box {
+        display: flex;
+        background-color: #164038;
+        padding: 32px 60px;
+        border-radius: 5px;
+        align-items: center;
+        gap: 160px;
+        .check__box__left {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h5 {
+                font-weight: 400;
+                font-size: 21px;
+                line-height: 24px;
+                color: white;
+            }
+            h2 {
+                font-weight: 400;
+                font-size: 38px;
+                line-height: 44px;
+                color: white;
+                width: 378px;
+            }
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: white;
+                width: 391px;
+                
+            }
+            button {
+                width: 130px;
+                height: 50px;
+                background-color: #E1FFA0;
+                border: none;
+                border-radius: 100px;
+                color: #0C2520;
+                font-weight: 400;
+                font-size: 13px;
+                transition: 0.3s ease;
+                &:hover {
+                    transform: scale(1.1);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .check__boxes {
+        margin-top: 32px;
+        display: flex;
+        gap: 30px;
+        .check__boxes__inner {
+            width: 586px;
+            height: 252px;
+            border-radius: 5px;
+            border: 1px solid #0000001A;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            h4 {
+                margin-top: 100px;
+                font-weight: 400;
+                font-size: 21px;
+                line-height: 24px;
+                color: #0C2520;
+            }
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: #0C2520;
+            }
+            a {
+                color: #0C2520;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
