@@ -51,8 +51,9 @@
     }
     .check__boxes {
         margin-top: 32px;
-        display: flex;
-        gap: 30px;
+        display: grid;
+        gap: 50px;
+        grid-template-columns: repeat(2, 1fr );
         .check__boxes__inner {
             width: 586px;
             height: 252px;

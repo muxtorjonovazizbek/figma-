@@ -1,0 +1,146 @@
+.customer {
+    .customer__topTitle {
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+        align-items: center;
+        p {
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 24px;
+            align-items: center;
+            color: #333333;
+        }
+        h1 {
+            font-weight: 400;
+            font-size: 37px;
+            line-height: 44px;
+            align-items: center;
+            color: #333333;
+        }
+    }
+    .customer__cards {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        .card {
+            padding-top: 200px;
+            width: 378px;
+            height: 328px;
+            background: #0C2520;
+            padding-left: 32px;
+            padding-right: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            h5 {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 29px;
+                color: white;
+            }
+            a {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                color: #32735F;
+            }
+        }
+    }
+    .custom__cards__bottom {
+        margin-top: 33px;
+        display: flex;
+        .card__larger {
+            padding: 48px;
+            display: flex;
+            border-radius: 5px;
+            width: 791px;
+            height: 300px;
+            background-color: #164038;
+            .larger__left {
+               h2 {
+                display: flex;
+                gap: 10px;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 33px;
+                color: white;
+                p {
+                    color: #E1FFA0;
+                }
+               }
+               .larger__left__desc {
+                margin-top: 50px;
+                width: 367px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: white;
+               }
+               h6 {
+                margin-top: 30px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                color: #E1FFA0;
+               }
+            }
+            .larger__right {
+                border-left: 1px solid #E8E8E84D;
+                width: 1px;
+                height: 204px;
+                padding-left: 80px;
+                margin-left: 90px;
+                // background-col   or: #fff;
+                width: fit-content;
+                h2 {
+                    font-weight: 400;
+                    font-size: 80px;
+                    line-height: 48px;
+                    color: white;
+                    margin-bottom: 30px;
+                }
+                h6 {
+                    display: flex;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 20px;
+                    color: white;
+                    margin-top: 5px;
+                    p {
+                        display: flex;
+                        letter-spacing: 2px;
+                        margin-left: 2px;
+                        color: #E1FFA0;
+                    }
+                }
+            }
+            
+        }
+        .larger__card {
+            border-radius: 5px;
+            padding-top: 200px;
+            width: 378px;
+            height: 300px;
+            margin-left: 70px;
+            background: #0C2520;
+            padding-left: 32px;
+            padding-right: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            h5 {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 29px;
+                color: white;
+            }
+            a {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                color: #32735F;
+            }
+        }
+    }
+}
